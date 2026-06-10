@@ -1,0 +1,13 @@
+{
+  "name": "credit-points-optimizer",
+  "version": "1.0.0",
+  "description": "Maximize your credit card points for travel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
