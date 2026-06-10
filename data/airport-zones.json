@@ -1,0 +1,132 @@
+{
+  "_comment": "Maps IATA airport codes to geographic zones used for award chart lookups",
+
+  "north_america": [
+    "ATL","LAX","ORD","DFW","DEN","JFK","SFO","SEA","LAS","MCO","EWR","CLT","PHX","MIA","IAH",
+    "BOS","MSP","DTW","FLL","PHL","LGA","BWI","SLC","DCA","SAN","HOU","MDW","TPA","PDX","STL",
+    "DAL","HNL","BNA","AUS","OAK","MCI","RDU","SMF","SJC","MSY","CLE","SNA","MEM","PIT","CVG",
+    "IND","SAT","CMH","PBI","BDL","BUF","ONT","SJU","OMA","TUL","OGG","GEG","ABQ","ALB","BOI",
+    "YYZ","YVR","YUL","YYC","YEG","YOW","YHZ","YWG",
+    "MEX","GDL","MTY","CUN","SJD","PVR","MID","VER","OAX","ZIH","HUX","BJX",
+    "HAV","NAS","BGI","KIN","POS","UVF","EIS","ANU","SKB","SXM","STT","STX","PTP","FDF","SBH",
+    "GUA","SAL","TGU","MGA","SJO","PTY","BZE","SDQ","STI","PUJ"
+  ],
+
+  "europe": [
+    "LHR","CDG","FRA","AMS","MAD","BCN","FCO","MUC","LGW","ZRH","VIE","BRU","CPH","DUB","OSL",
+    "ARN","HEL","LIS","ATH","IST","WAW","PRG","BUD","VCE","MXP","LIN","NCE","ORY","TXL","SXF",
+    "BER","DUS","STR","HAM","HAJ","NUE","PMI","AGP","TFS","LPA","IBZ","VLC","SVQ","BIO","GVA",
+    "BSL","MRS","LYN","NTE","BOD","TLS","GVA","EDI","MAN","BHX","GLA","LBA","BRS","NCL","LTN",
+    "STN","LCY","EMA","ORK","SNN","BEG","OTP","SOF","SKP","TIA","TBS","EVN","LWO","KBP","LED",
+    "SVO","DME","VKO","GOJ","KZN","AER","OVB","SVX","IEV","ODS","RIX","VNO","TLL","HEL","TMP",
+    "MLH","EAP","ACE","FUE","EIN","MST","ANR","LGG","CRL","BLL","AAL","AGN","KRS","SVG","TOS",
+    "BOO","TRD","AES","RRS","LKL","EVE","BGO","AES","DUB","SNN","ORK","KRK","POZ","WRO","GDN",
+    "RZE","LUZ","BZG","SZZ","IEG","KTW","OPO","FAO","FNC","PDL","TER","HOR","PIX","SMA","GRW",
+    "SMR","TGD","SPU","DBV","ZAD","PUY","BWK","LSZ","OHD","TIA","SKP","OHD","GZP","ESB","ADB",
+    "SAW","AYT","BJV","DLM","TZX","ERZ","VAN","DIY","NJF","ETM","RHO","HER","CFU","ZTH","KGS",
+    "CHQ","JSI","JMK","SKG","EFL","PVK","KIT","AOK","LXR","JTR","MJT","SMI","HOP","MLO","JKH"
+  ],
+
+  "middle_east": [
+    "DXB","AUH","DOH","KWI","BAH","AMM","BEY","CAI","TLV","MCT","ADE","SAH","SLL","AHB","GIZ",
+    "JED","RUH","MED","DMM","AQJ","BGW","BSR","ORB","SHJ","FJR","RKT","AAN","NJF","EBL","ISU",
+    "MHD","THR","IKA","SYZ","TBZ","AWZ","OMH","KER","KHD","KIH","LFM","IFN","MRX","ZAH","RAS",
+    "SCT","SHR","PGU","CKZ","OMR","HOF","ELQ","TUF","URY","AHB","GIZ","HAS","TIF","WAE","DWD"
+  ],
+
+  "africa": [
+    "JNB","CPT","DUR","PLZ","ELS","GRJ","LAD","LOS","ABV","ACC","NBO","MBA","ADD","DAR","KGL",
+    "EBB","LLW","HRE","LUN","MPM","SEZ","MRU","TNR","BJM","KIS","JRO","MYZ","ZNZ","HAH","DZA",
+    "RUN","CMN","RAK","TNG","TUN","ALG","ORN","CZL","MIR","SFA","GBE","WDH","VFA","NOS","DJE",
+    "MIR","DKR","ABJ","COO","LFW","OUA","NIM","BKO","CKY","FNA","ROB","OXB","BJL","LBV","DLA",
+    "YAO","SSG","LBV","DLA","NSI","GYE","ASM","KRT","KHK","PZU","JUB","MUB","GBE","FAT","MLN",
+    "OZZ","EUN","VIL","AGA","GAE","TBR","SFX","GHT","MQX","DIR","AMH","GDQ","LLI","BCO","DBM",
+    "BEI","MKS","AWA","AXU","DEM","SZE","BCO","MYD","HAH","NOS","TNR","MJN","DIE","MOQ","VVB",
+    "RUN","DZA","SYL","MHQ","ZSE"
+  ],
+
+  "south_asia": [
+    "DEL","BOM","MAA","BLR","HYD","CCU","AMD","PNQ","COK","GOI","TRV","IXB","IXC","JAI","LKO",
+    "VNS","PAT","IXR","BBI","IXG","STV","IDR","IXU","NAG","VGA","BDQ","IMF","IXI","TEZ","IXJ",
+    "SXR","KNU","ATQ","IXD","BHO","RPR","JDH","JGA","UDR","PGH","AGR","LUH","SHL","GAY","TRC",
+    "KHI","LHE","ISB","PEW","SKT","MUX","LYP","UET","PZH","DXB","GWD","KDD","WNS","MJD","MPD",
+    "CMB","HRI","MLE","GAN","CMB","HRI","TRZ","VTZ","CJB","TIR","RJA","HBX","STV","ISB","GHQ",
+    "KTM","PKR","BIR","JKT","DHI","TIA","DAC","CGP","ZYL","JSR","BZL","SPD","IRD","RJH","BKS",
+    "SAJ","CXB","TBW","LAM"
+  ],
+
+  "east_asia": [
+    "PEK","PKX","PVG","SHA","CAN","SZX","CTU","KMG","XIY","WUH","CSX","NKG","HGH","XMN","CKG",
+    "TSN","DLC","TYN","SHE","TAO","JJN","WEH","YNT","BJS","CGO","FOC","KWE","WUX","HFE","TNA",
+    "NNG","LHW","INC","URC","LXA","ZGN","BHY","MXZ","HSN","HLD","HAR","MDG","NDG","JMU","YCU",
+    "HKG","MFM","TPE","TSA","KHH","RMQ","TNN","MZG","GNI","KNH","TTT","HUN","TXG","KLT","CMJ",
+    "NRT","HND","KIX","NGO","CTS","FUK","OKA","ITM","MYJ","HIJ","KMJ","KMI","OIT","NGS","ASJ",
+    "HSG","MKE","AKJ","AOJ","GAJ","SYO","SDJ","ONJ","AXT","KIJ","FSZ","RIS","OBO","CKD","OHE",
+    "ICN","GMP","PUS","TAE","CJU","KWJ","RSU","WJU","USN","SHO","KAG","MPK","YNY","CJJ","HIN",
+    "ULS","MWX","KPO","YEC","POH","PUS","SSN","OSN",
+    "MNG","ULN","HVD","LTI","MXW","COQ","ULG","ULO","UGA","ZGZ","ULZ"
+  ],
+
+  "southeast_asia": [
+    "SIN","BKK","DMK","HKT","CNX","USM","HHQ","KBI","HDY","UTP","CEI","PHS","PRH","THS","TDX",
+    "NST","UTH","SNO","KKC","ROI","BFV","KOP","PXR","MAQ","NAW","CJM","NAK","URT","UCT","VJI",
+    "KUL","PEN","LGK","JHB","BKI","KCH","MYY","BTU","SDK","TWU","MZV","LBU","BKI","SBW","BBN",
+    "CGK","SUB","DPS","MES","UPG","HLP","SOC","JOG","SRG","PNK","BPN","TTE","MDC","GTO","BIK",
+    "MXB","PKN","AMI","LOP","SBR","KDI","PGQ","GNS","BTJ","PDG","PKU","TKG","PLM","JKT","BTH",
+    "MNL","CEB","DVO","ILO","BCD","ZAM","GEN","LGP","LAO","DGT","TAG","OZC","CBO","MXI","RXS",
+    "SGD","KLO","TUG","VRC","MPH","TAC","ENI","IGN","PPS","USU","TBH","MBO","CDY","JOL","AAV",
+    "RGN","MDL","NYU","HEH","MYT","MGZ","TVY","MON","GAW","MNU","LSH","KHM","KET","SNW","THL",
+    "VTE","PKZ","XKH","ZBY","NEU","ODY","HOE","LPQ","MXZ","VMI",
+    "REP","PNH","KOS","KKZ","MWV","TNX","BBM","OMY","KZK",
+    "HAN","SGN","DAD","HPH","VII","HUI","PQC","DLI","PXU","CXR","VCL","UIH","BMV","VCA","VCS",
+    "BWN","DBA","LAB"
+  ],
+
+  "oceania": [
+    "SYD","MEL","BNE","PER","ADL","OOL","CBR","HBA","DRW","TSV","MKY","ROK","HTI","PPP","MCY",
+    "LST","LRE","CNS","CFS","NTL","MKY","WGA","OAG","DBO","MMG","BHQ","MQL","ABX","EDR","GOV",
+    "GTE","MNG","KTR","ASP","AYQ","ULP","PQQ","MIM","GFF","BSJ","OLP","BWU","PKT","TWB","WDI",
+    "AKL","CHC","WLG","HLZ","PMR","DUD","IVC","GIS","ROT","TUO","WHO","RAR","ZQN","NPL","BHE",
+    "WHK","NPE","NSN","BFS","PCN","GBZ","MHZ","FGL","WSZ","KKE","TRG","MRO","TCF","WRE","WIR",
+    "NAN","SUV","BXL","KDV","LBS","PTF","MFJ","SVU","RKS","RBI","TVU","KXF","MBD","BEW","VAU",
+    "APW","PPT","FAA","BOB","RFP","MOZ","HUH","MKP","TIH","AXR","MVT","XMH","KKR","GMR","PKP",
+    "IKP","AAA","FGU","REA","PUK","TIH","NHV","UAH","UAP","ZTA","APK","RRR","MAU","RUR","HZP",
+    "HIR","MUA","GZO","BNY","AFT","RNL","PRS","KGE","MBU","XYA","KWS","FRE","ZIA","AKS","IRA",
+    "RIN","ATD","GTA","ONE","RNA","VAO","MNF","RBV","EGM","ONI","BBI","MDR","TLB","AUP","PNP",
+    "MDU","MAS","TIZ","LAE","POM","HON","RBP","UNG","GKA","WWK","KMA","SKC","LNV","MHY","UPR",
+    "DAU","HGU","MDU","MAS","TIZ","OPU","OBM","OSE","KGM","AEK","AWB","TFM","RAB","GUR","LSA",
+    "MAJ","KWA","CXI","TRW","FUN","TBF","MNV","AIS","ABF","BEZ","MTK","MZK","BEW","BJV","BEW",
+    "PPG","IUE","WLS","FUT","NOU","TOU","KNQ","GEA","LIF","UVF","ILP","KOC","AJY","HLW","PWR",
+    "DPP","EPI","VLI","SON","LPM","MDC","AWD","UIQ","ZGU","AUY","SWJ","TOH","TAH","FTA","OOA",
+    "EAE","RCL","SSR","MWF","MTV","WLS","FUT"
+  ],
+
+  "south_america": [
+    "GRU","GIG","BSB","FOR","REC","SSA","CWB","POA","BEL","MAO","CGH","SDU","VCP","MCZ","NAT",
+    "CGR","THE","JOI","FLN","LDB","CGB","CKS","SLZ","IMP","ARU","RAO","JDO","PMW","PNZ","MCP",
+    "UDI","UBA","MII","BVB","STM","CAE","GYN","MOC","PAV","IOS","VIX","BPS","SBH","IPN","PFB",
+    "LBO","FEN","LEC","LIP","JTC","OAL","MEU","CPQ","AQA","JJD","JPI","BBA","JNA","MNX","NQL",
+    "ERM","GIG","SDU","GRU","VCP","CGH","GYN","CGR","CGB","POA","FLN","CWB","SSA","REC","MCZ",
+    "LIM","CUZ","AQP","IQT","TRU","CIX","PCL","AYP","JAU","PIU","CHM","TPP","MBP","BLP","ANS",
+    "JJI","HUU","ILQ","ALD","PEM","ATG","NZC","CHH","CJA","GPI","MFT","MZX","RIM","RIM","SQU",
+    "BOG","MED","CLO","BAQ","CTG","BGA","CUC","PEI","MZL","ADZ","SJE","EOH","MTR","PVA","AXM",
+    "VVC","CPB","LMC","OCV","UIB","EYP","MHF","NVA","CSR","PAD","IBE","CZU","TTM","AOB","AFI",
+    "SCY","MEC","GYE","UIO","GPS","LGQ","OCC","PTZ","TNW","PYO","BHA","ATF","ETR","ESM","TUA",
+    "MCH","GNB","SNX","OGA","JIP","CUE","XMS","LOH","SNC","PVO","LTX","ATX","GLE","ORE","SOR",
+    "SCZ","VVI","CBB","LPB","ORU","TJA","SRZ","SRE","RIB","APB","RBO","TDD","MHW","GYA","POI",
+    "BYC","MOC","PUR","PRC","SJS","SBL","ASC","MGD","CAM","SNM","CIJ","CCA","CEP","TDD","MHW",
+    "EZE","AEP","COR","MDZ","TUC","IGR","SLA","BRC","PMQ","RGA","USH","FTE","VDM","CCP","SCL",
+    "IPC","PMC","ZOS","BBA","CJC","ANF","ZAL","SCL","IQQ","ARI","PUQ","PMQ","LSC","TOQ","OVL",
+    "MHC","QRC","ZCO","ZAL","PMV","BLA","MRD","EOR","CCS","MYC","PBL","SVZ","STB","ICA","CBL",
+    "GUQ","SCI","LFR","KAI","AUA","BON","SXM","CUR","EIS","BQN","AGU","VIG","SVZ","BNS","WRO",
+    "ASU","CIO","AGT","OLK","PIL","ENR","AYO","CDE","ITA","PCJ","PBT","ESG","ORE","SOR","MNA",
+    "MVD","DUR","PDU","PDP","RVY","STY","TAW","CAR","MHC","LGU","ATI","BKV","MDO","VCH","AGV",
+    "SVZ","LFR","SCI","PMV","PBL","EOR","GUQ","BNS","KAI","VIG","MYC","MRD","CBL","BLA","CCS",
+    "OCC","TYS","MEC","GYE","PTZ","SNC","ATX","GNB","TNW","PYO","LTX","LOH","ATF","XMS","ETR",
+    "LGQ","UIO","GPS","BHA","CUE","PVO","TUA","ESM","MCH","SNX","OGA","JIP","SCY","SOR","ORE",
+    "GLE","MHF","FON","GYA","CBB","ORU","TJA","LPB","SRZ","SRE","APB","RBO","TDD","RIB","MHW",
+    "EZE","BRC","PMQ","TUC","SLA","MDZ","AEP","COR","IGR","RGA","USH","FTE","VDM","CCP","SCL",
+    "IPC","PMC","ZOS","BBA","CJC","ANF","ZAL","SCL","IQQ","ARI","PUQ","LSC","TOQ","OVL","MHC",
+    "QRC","ZCO","ZAL"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "chase_sapphire_reserve": {
+    "name": "Chase Sapphire Reserve",
+    "currency": "Chase Ultimate Rewards",
+    "currencyShort": "UR Points",
+    "portalValue": 1.5,
+    "color": "#1a3a6b",
+    "transferPartners": {
+      "united": { "ratio": 1.0 },
+      "southwest": { "ratio": 1.0 },
+      "british_airways": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "air_canada": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "iberia": { "ratio": 1.0 }
+    }
+  },
+  "chase_sapphire_preferred": {
+    "name": "Chase Sapphire Preferred",
+    "currency": "Chase Ultimate Rewards",
+    "currencyShort": "UR Points",
+    "portalValue": 1.25,
+    "color": "#2d5fa0",
+    "transferPartners": {
+      "united": { "ratio": 1.0 },
+      "southwest": { "ratio": 1.0 },
+      "british_airways": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "air_canada": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "iberia": { "ratio": 1.0 }
+    }
+  },
+  "amex_platinum": {
+    "name": "Amex Platinum",
+    "currency": "Amex Membership Rewards",
+    "currencyShort": "MR Points",
+    "portalValue": 1.0,
+    "color": "#8a8a8a",
+    "transferPartners": {
+      "delta": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "british_airways": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "ana": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "air_canada": { "ratio": 1.0 },
+      "emirates": { "ratio": 1.0 },
+      "cathay_pacific": { "ratio": 1.0 },
+      "iberia": { "ratio": 1.0 },
+      "jetblue": { "ratio": 1.0 }
+    }
+  },
+  "amex_gold": {
+    "name": "Amex Gold",
+    "currency": "Amex Membership Rewards",
+    "currencyShort": "MR Points",
+    "portalValue": 1.0,
+    "color": "#c8a951",
+    "transferPartners": {
+      "delta": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "british_airways": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "ana": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "air_canada": { "ratio": 1.0 },
+      "emirates": { "ratio": 1.0 },
+      "iberia": { "ratio": 1.0 },
+      "jetblue": { "ratio": 1.0 }
+    }
+  },
+  "citi_premier": {
+    "name": "Citi Premier",
+    "currency": "Citi ThankYou Points",
+    "currencyShort": "TY Points",
+    "portalValue": 1.0,
+    "color": "#003d7a",
+    "transferPartners": {
+      "turkish": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "avianca": { "ratio": 1.0 },
+      "cathay_pacific": { "ratio": 1.0 },
+      "air_canada": { "ratio": 1.0 },
+      "thai": { "ratio": 1.0 },
+      "jetblue": { "ratio": 1.0 }
+    }
+  },
+  "capital_one_venture_x": {
+    "name": "Capital One Venture X",
+    "currency": "Capital One Miles",
+    "currencyShort": "Miles",
+    "portalValue": 1.0,
+    "color": "#cc0000",
+    "transferPartners": {
+      "air_canada": { "ratio": 1.0 },
+      "air_france_klm": { "ratio": 1.0 },
+      "british_airways": { "ratio": 1.0 },
+      "turkish": { "ratio": 1.0 },
+      "singapore": { "ratio": 1.0 },
+      "avianca": { "ratio": 1.0 },
+      "finnair": { "ratio": 1.0 },
+      "emirates": { "ratio": 1.0 },
+      "virgin_atlantic": { "ratio": 1.0 },
+      "tap_portugal": { "ratio": 1.0 }
+    }
+  },
+  "delta_skymiles_gold": {
+    "name": "Delta SkyMiles Gold Amex",
+    "currency": "Delta SkyMiles",
+    "currencyShort": "SkyMiles",
+    "portalValue": 1.0,
+    "color": "#c41230",
+    "transferPartners": {}
+  },
+  "united_explorer": {
+    "name": "United Explorer Card",
+    "currency": "United MileagePlus",
+    "currencyShort": "Miles",
+    "portalValue": 1.0,
+    "color": "#005daa",
+    "transferPartners": {}
+  },
+  "southwest_rapid_rewards": {
+    "name": "Southwest Rapid Rewards Plus",
+    "currency": "Southwest Points",
+    "currencyShort": "Points",
+    "portalValue": 1.5,
+    "color": "#304cb2",
+    "transferPartners": {}
+  },
+  "british_airways_visa": {
+    "name": "British Airways Visa Signature",
+    "currency": "British Airways Avios",
+    "currencyShort": "Avios",
+    "portalValue": 1.0,
+    "color": "#004b8d",
+    "transferPartners": {}
+  }
+}
