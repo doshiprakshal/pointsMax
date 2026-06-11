@@ -4,7 +4,7 @@
 
 Most people redeem credit card points through their card's travel portal and get 1¢ per point. PointsMax finds the transfers, sweet spots, and multi-card combinations that can get you **3–6¢ per point** — on the exact same flights.
 
-🔗 **Live site:** [pointsmax.vercel.app](https://pointsmax.vercel.app) *(update once deployed)*
+🔗 **Live site:** [points-max.vercel.app](https://points-max.vercel.app)
 
 ---
 
