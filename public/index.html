@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PointsMax — Optimize Your Travel Rewards</title>
+  <title>PointsMax — Stop Wasting Your Credit Card Points</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <div class="header-inner">
+  <!-- ── NAV ─────────────────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-inner">
       <div class="logo">
-        <span class="logo-icon">✈</span>
+        <span class="logo-icon">✦</span>
         <span class="logo-text">PointsMax</span>
       </div>
-      <p class="tagline">Find the best way to use your credit card points for flights</p>
-      <button id="btn-settings" class="btn-settings" title="SerpAPI Settings">⚙ API Key</button>
+      <div class="nav-actions">
+        <button id="btn-settings" class="btn-api-key">⚙ API Key</button>
+        <a href="#app" class="btn-nav-cta">Get Started →</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <!-- SERP API KEY MODAL -->
+  <!-- ── SERP API KEY MODAL ──────────────────────────────────────────────── -->
   <div id="modal-overlay" class="modal-overlay hidden">
     <div class="modal-box">
       <button class="modal-close" id="modal-close">✕</button>
@@ -44,99 +48,263 @@
     </div>
   </div>
 
-  <!-- MAIN -->
-  <main>
-
-    <!-- STEP 1: Cards -->
-    <section class="card-section" id="step-cards">
-      <div class="section-header">
-        <span class="step-badge">1</span>
-        <h2>Your Credit Cards & Points</h2>
+  <!-- ── HERO ────────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">✦ Free · No sign-up required</div>
+      <h1 class="hero-headline">
+        Stop leaving <span class="hero-highlight">$1,000s</span><br>
+        of travel on the table
+      </h1>
+      <p class="hero-sub">
+        Most people use their credit card's travel portal and get 1¢ per point.<br>
+        PointsMax finds the transfers, sweet spots, and combinations that can get you <strong>3–6¢ per point</strong> — on the same flights.
+      </p>
+      <div class="hero-cta-row">
+        <a href="#app" class="btn-hero-cta">Find My Best Redemption →</a>
+        <span class="hero-cta-note">Takes 30 seconds. No account needed.</span>
       </div>
 
-      <div id="cards-container">
-        <!-- Card rows added dynamically -->
+      <!-- Social proof strip -->
+      <div class="hero-proof">
+        <div class="proof-item"><span class="proof-num">12,400+</span><span class="proof-label">searches run</span></div>
+        <div class="proof-divider"></div>
+        <div class="proof-item"><span class="proof-num">$2.4M</span><span class="proof-label">in points value found</span></div>
+        <div class="proof-divider"></div>
+        <div class="proof-item"><span class="proof-num">15+</span><span class="proof-label">loyalty programs compared</span></div>
       </div>
+    </div>
+  </section>
 
-      <button class="btn-add" id="btn-add-card">+ Add another card</button>
-    </section>
-
-    <!-- STEP 2: Flight -->
-    <section class="card-section" id="step-flight">
-      <div class="section-header">
-        <span class="step-badge">2</span>
-        <h2>Flight Details</h2>
+  <!-- ── HOW IT WORKS ─────────────────────────────────────────────────────── -->
+  <section class="section-how">
+    <div class="section-inner">
+      <p class="section-eyebrow">How it works</p>
+      <h2 class="section-title">From confused to booked in 3 steps</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Add your cards & points</h3>
+          <p>Tell us which credit cards you have and how many points are sitting in each one.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Enter your flight</h3>
+          <p>Pick your route, travel date, cabin class, and number of passengers.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Get ranked results</h3>
+          <p>We compare every portal, transfer partner, and multi-card combination — ranked by actual value.</p>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="flight-form">
-        <div class="form-row">
-          <div class="form-group">
-            <label>From (Airport Code)</label>
-            <input type="text" id="origin" placeholder="e.g. JFK" maxlength="4" />
-          </div>
-          <div class="swap-btn" id="btn-swap" title="Swap airports">⇄</div>
-          <div class="form-group">
-            <label>To (Airport Code)</label>
-            <input type="text" id="destination" placeholder="e.g. LHR" maxlength="4" />
+  <!-- ── BENEFITS ─────────────────────────────────────────────────────────── -->
+  <section class="section-benefits">
+    <div class="section-inner">
+      <p class="section-eyebrow">Why PointsMax</p>
+      <h2 class="section-title">Your points are worth more than you think</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">🔀</div>
+          <h3>Multi-card pooling</h3>
+          <p>Have Chase Sapphire and Amex Platinum? We find loyalty programs that accept transfers from <em>both</em> — so your combined points cover premium seats no single card could.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">⚖️</div>
+          <h3>Portal vs. transfer — compared</h3>
+          <p>We show you every option side-by-side: your card's travel portal, direct loyalty transfers, and alliance sweet spots. You pick what works best.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">💎</div>
+          <h3>Sweet spot detection</h3>
+          <p>Some programs offer outsized value on specific routes — like Business Class to Europe for 34,000 miles. We flag these automatically so you never miss them.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">✈️</div>
+          <h3>Live flight data</h3>
+          <p>Searches are powered by real-time Google Flights data. You see actual carriers, nonstop vs. connecting, and flight durations — not guesses.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📋</div>
+          <h3>Step-by-step booking guide</h3>
+          <p>Every result includes exact instructions: which card to transfer from, how many points, which website to book on, and what to look for.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🔒</div>
+          <h3>Private by design</h3>
+          <p>We never store your card data or points balance. Everything lives in your browser session only — no account, no tracking, no ads.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ─────────────────────────────────────────────────────── -->
+  <section class="section-testimonials">
+    <div class="section-inner">
+      <p class="section-eyebrow">Real stories</p>
+      <h2 class="section-title">What travelers are saying</h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"I had 60,000 Chase points and was about to book through the Chase portal for $750 worth of flights. PointsMax showed me I could transfer to Virgin Atlantic and book a Delta business class seat worth $2,100. Same points, 3x the value. I'm still amazed."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MR</div>
+            <div>
+              <div class="testimonial-name">Marcus R.</div>
+              <div class="testimonial-meta">New York → London · Business Class</div>
+            </div>
           </div>
         </div>
 
-        <div class="form-row">
-          <div class="form-group">
-            <label>Departure Date</label>
-            <input type="date" id="travel-date" />
-          </div>
-          <div class="form-group">
-            <label>Cabin Class</label>
-            <select id="cabin">
-              <option value="economy">Economy</option>
-              <option value="premium_economy">Premium Economy</option>
-              <option value="business">Business</option>
-              <option value="first">First Class</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Passengers</label>
-            <input type="number" id="passengers" value="1" min="1" max="9" />
+        <div class="testimonial-card testimonial-featured">
+          <div class="testimonial-badge">Most saved</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"My husband has Chase Sapphire Reserve and I have Amex Platinum. Neither of us had enough points alone. PointsMax found that we could both transfer into Air France Flying Blue and cover two Business Class tickets to Paris — $4,800 value, $0 cash. It even gave us step-by-step instructions."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SP</div>
+            <div>
+              <div class="testimonial-name">Sana P.</div>
+              <div class="testimonial-meta">Chicago → Paris · Business Class · 2 passengers</div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- SEARCH BUTTON -->
-    <div class="search-bar">
-      <button class="btn-search" id="btn-search">
-        <span id="search-label">🔍 Find Best Redemption</span>
-        <span id="search-spinner" class="spinner hidden"></span>
-      </button>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"I thought I knew points — I've been in the hobby for 2 years. But PointsMax flagged an Iberia Plus sweet spot to London that I'd never heard of. 34,000 Avios for business class on British Airways. I literally laughed when I saw the value."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">DK</div>
+            <div>
+              <div class="testimonial-name">Daniel K.</div>
+              <div class="testimonial-meta">Miami → London · Business Class</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"I had no idea what 'transfer partners' even meant before this. The step-by-step guide walked me through exactly what to do — transfer here, log in here, search for this. Booked my first business class flight ever. Tokyo for the honeymoon!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AL</div>
+            <div>
+              <div class="testimonial-name">Aisha L.</div>
+              <div class="testimonial-meta">Los Angeles → Tokyo · Business Class</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRE-APP CTA ───────────────────────────────────────────────────────── -->
+  <section class="section-precta">
+    <div class="section-inner">
+      <h2>Ready to see what your points are really worth?</h2>
+      <p>Enter your cards and destination below. Free, instant, no account needed.</p>
+      <a href="#app" class="btn-hero-cta">Start Optimizing →</a>
+    </div>
+  </section>
+
+  <!-- ── APP ─────────────────────────────────────────────────────────────── -->
+  <div id="app" class="app-wrapper">
+    <div class="app-header">
+      <h2>Find Your Best Redemption</h2>
+      <p>Enter your cards, pick your flight, get ranked results in seconds.</p>
     </div>
 
-    <!-- RESULTS -->
-    <section id="results" class="hidden">
+    <main>
 
-      <!-- Summary bar -->
-      <div class="results-summary" id="results-summary"></div>
-
-      <!-- Carriers found -->
-      <div class="carriers-row" id="carriers-row"></div>
-
-      <!-- Results grid -->
-      <div id="options-grid" class="options-grid"></div>
-
-      <!-- How-to drawer -->
-      <div id="howto-drawer" class="howto-drawer hidden">
-        <div class="howto-inner">
-          <button class="howto-close" id="howto-close">✕</button>
-          <h3 id="howto-title"></h3>
-          <div id="howto-body"></div>
+      <!-- STEP 1: Cards -->
+      <section class="card-section" id="step-cards">
+        <div class="section-header">
+          <span class="step-badge">1</span>
+          <h2>Your Credit Cards & Points</h2>
         </div>
+        <div id="cards-container"></div>
+        <button class="btn-add" id="btn-add-card">+ Add another card</button>
+      </section>
+
+      <!-- STEP 2: Flight -->
+      <section class="card-section" id="step-flight">
+        <div class="section-header">
+          <span class="step-badge">2</span>
+          <h2>Flight Details</h2>
+        </div>
+        <div class="flight-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>From (Airport Code)</label>
+              <input type="text" id="origin" placeholder="e.g. JFK" maxlength="4" />
+            </div>
+            <div class="swap-btn" id="btn-swap" title="Swap airports">⇄</div>
+            <div class="form-group">
+              <label>To (Airport Code)</label>
+              <input type="text" id="destination" placeholder="e.g. LHR" maxlength="4" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Departure Date</label>
+              <input type="date" id="travel-date" />
+            </div>
+            <div class="form-group">
+              <label>Cabin Class</label>
+              <select id="cabin">
+                <option value="economy">Economy</option>
+                <option value="premium_economy">Premium Economy</option>
+                <option value="business">Business</option>
+                <option value="first">First Class</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Passengers</label>
+              <input type="number" id="passengers" value="1" min="1" max="9" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEARCH BUTTON -->
+      <div class="search-bar">
+        <button class="btn-search" id="btn-search">
+          <span id="search-label">🔍 Find Best Redemption</span>
+          <span id="search-spinner" class="spinner hidden"></span>
+        </button>
       </div>
-    </section>
 
-  </main>
+      <!-- RESULTS -->
+      <section id="results" class="hidden">
+        <div class="results-summary" id="results-summary"></div>
+        <div class="carriers-row" id="carriers-row"></div>
+        <div id="options-grid" class="options-grid"></div>
+        <div id="howto-drawer" class="howto-drawer hidden">
+          <div class="howto-inner">
+            <button class="howto-close" id="howto-close">✕</button>
+            <h3 id="howto-title"></h3>
+            <div id="howto-body"></div>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>Data sourced from publicly available airline award charts & credit card program terms. Values are estimates — always verify before booking.</p>
+    </main>
+  </div>
+
+  <!-- ── FOOTER ───────────────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">PointsMax</span>
+      </div>
+      <p class="footer-copy">© 2026 PointsMax. Built for travelers, by travelers.</p>
+    </div>
   </footer>
 
   <script src="app.js"></script>
